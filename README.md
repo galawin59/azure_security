@@ -17,8 +17,8 @@ Pour le code de recuperation du fichier
 
 "abfss://airbnb@datalakepb.dfs.core.windows.net/listings.csv"
 
-adbfss = connection au storage
-airbnb = nom du contenaire
-datalakepb = non du datalake
+adbfss = connection au storage </br>
+airbnb = nom du contenaire </br>
+datalakepb = non du datalake </br>
 listings.csv = nom du fichier a recuperer
 
