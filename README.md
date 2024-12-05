@@ -6,6 +6,9 @@ en respectant les regles de sécurité du moindre privilege et les roles
 Le script recupere le secret du service principale en etant connecté au service secondaire pour pouvoir se connecter au service principale
 et ensuite transferer le fichier.
 
+On met dans un .env le client_id, le tenant_id et le secret du service secondaire qui n'a que les droits de lire le secret du service principle qui est dans le key vault
+ensuite cela nous permet de nous connecter au service principale pour effectuer le transfere de fichier ;) 
+
 
 # Azure Databricks
 
